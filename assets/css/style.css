@@ -1,0 +1,90 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(../img/sfondo.png);
+    background-repeat: repeat-y;
+}
+
+/* HEADER */
+
+body>div.logo {    
+    margin: 2vh;
+    box-sizing: border-box;
+    min-width: 330px;
+    font-weight: 600;
+    max-width: 90vw;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2),rgb(0, 136, 170));
+    min-height:330px;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px #666666;
+    background-color:rgb(0, 136, 170);
+}
+
+body>div.logo>h1 {
+    margin: 0% 5% 5%;
+}
+
+body>div.logo a {
+    text-decoration-line: none;
+}
+
+body>div.logo h2 {
+    color: white;
+    margin: 2% 5% 0%;
+}
+
+body>div.logo>img {
+    width: 100%;
+    padding: 15%;
+    box-sizing: border-box;
+}
+/* MAIN */
+
+body>div:nth-child(2) {    
+    margin: 2vh;
+    box-sizing: border-box;
+    min-width: 330px;
+    font-weight: 600;
+    max-width: 90vw;
+    text-align: left;
+    box-shadow: 5px 5px 5px #666666;
+    background-color:rgb(255, 255, 255);
+}
+
+body>div:nth-child(2) h1 {
+    font-size: 30px;
+    padding-top: 10%;
+    line-height: 1.5em;
+}
+
+body>div:nth-child(2) h3 {
+    margin-right: 5%;
+    color: grey;
+    padding: 1.4em 0;
+}
+
+body>div:nth-child(2) p, ul, h3 {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.4em;
+
+}
+
+body>div:nth-child(2) p>span {
+    color: rgb(167, 33, 120);
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
