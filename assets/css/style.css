@@ -188,7 +188,7 @@ div.correlati {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.4em;
-    padding: 2em 1em 0.5em;
+    padding: 2em 1em;
     text-align: left;
 }
 
@@ -213,7 +213,6 @@ footer {
     font-weight: 400;
     height: 20vh;
     text-align: center;
-    box-sizing: border-box;
     background: linear-gradient(360deg, rgba(0, 0, 0, 1),rgb(0, 136, 170));
     box-shadow: 5px 5px 5px #666666;
     padding: 1em;
